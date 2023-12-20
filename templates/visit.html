@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+ Your visit
+{% endblock %}
+
+{% block body %}
+<div class="main">
+<string><h2>Would you like to visit kashmir?</h2></string>
+<div class="container">
+<div class="row">
+    <div class="col-lg-12 md-6">
+<div class="form">
+<form action="/visit" method="post">
+    <fieldset>
+    <legend>Form for connecting with fellow travellers</legend>
+
+    <label for="name" class="form-label">Name/Nickname</label>
+    <input type="text" class="form-control" autocomplete="off" name="name" placeholder="input name" required>
+    <br>
+
+    <label for="location" class="form-label">place to visit</label>
+    <select class="form-select" name="location" required>
+        <option value="" disabled selected>Select a location</option>
+        <option value="dal">Dal lake</option>
+        <option value="sonamarg">Sonamarg</option>
+        <option value="yusmarg">yusmarg</option>
+        <option value="hazratbal">hazratbal</option>
+    </select>
+    <br>
+
+    <label for="date" class="form-label">Date of visit</label>
+    <input type="date" class="form-control" name="date" required>
+    <br>
+
+    <label for="contact" class="from-label">Social contact</label>
+    <select class="from-select" name="contacttype" required>
+        <option value="" disabled selected>select a social id</option>
+        <option value="instagram">instagram </option>
+        <option value="twitter">twitter </option>
+    </select>
+    <input type="text" class="form-control" name="contact" autocomplete="off" required>
+    <br>
+
+    <button type="submit" class="btn btn-dark" value="submit">submit</button>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+{% endblock %}

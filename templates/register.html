@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+register
+{% endblock %}
+
+{% block body %}
+<form action="/register" method="POST">
+    <div class="container-log">
+        <div class="logregrow">
+            <div class="col-lg-3 md-3">
+    <label class="form-label" for="name">Username</label>
+    <input class="form-control" type="text" name="username" autocomplete="off" placeholder="type username" required>
+    </div>
+    </div>
+    <div class="logregrow">
+        <div class="col-lg-3 md-3">
+    <label class="form-label" for="password">Password</label>
+    <input class="form-control" type="password" name="password" autocomplete="off" placeholder="type password" id="passw" pattern="(?=(.*\d){3,}).*" minlength="8" title="must contain 3 numbers at least" required>
+    </div>
+    </div>
+    <button class="btn btn-dark" type="submit">Submit</button>
+    </div>
+    </form>
+{% endblock %}

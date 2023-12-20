@@ -1,0 +1,146 @@
+
+/* this is the stylesheet that has been used to style the webpages in the webapp */
+
+body
+{
+    font-size:20px;
+    font-family:Montserrat;
+}
+.navbar
+{
+    padding-bottom:10px;
+    margin-bottom:20px;
+}
+
+.main
+{
+    margin-top:6%;
+    text-align:center;
+}
+h2
+{
+    font-size:50px;
+}
+
+
+
+.home-img1{
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    float:left;
+}
+
+.p1
+{
+    margin:50px;
+    padding:50px;
+}
+
+.hmpg1{
+
+    background-image: url("/static/images/homepg1.jpg");
+    width: 400px; /* Set the width of the container */
+    height: 400px; /* Set the height of the container */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    border-radius:50%;
+    float:left;
+    margin:50px;
+}
+
+.hmpg2{
+
+    background-image: url("/static/images/homepg3.jpg");
+    width: 400px; /* Set the width of the container */
+    height: 400px; /* Set the height of the container */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    border-radius:50%;
+    float:right;
+    margin:50px;
+}
+
+.bottom
+{
+    clear:right;
+    text-align:center;
+    background-color:#2C3333;
+    color:white;
+    padding:5px;
+    margin-top:25%;
+}
+
+.place
+{
+    margin:100px;
+}
+.place-img1
+{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius:50%;
+    float:left;
+    margin:50px;
+}
+
+.place-img2
+{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius:50%;
+    float:right;
+    margin:50px;
+}
+
+.place-text
+{
+    margin:50px;
+    padding:50px;
+}
+fieldset
+{
+    border:2px solid;
+    padding:20px;
+}
+.form
+{
+    text-align:left;
+    margin:50px;
+}
+.logregrow
+{
+    margin-bottom:20px;
+}
+.container-log
+{
+    margin:20px;
+}
+
+table
+{
+    border:10px solid black;
+}
+
+a{
+    color:black;
+}
+
+.meme-container
+{
+    margin-top:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.about-text
+{
+    margin:30px;
+    font-size:25px;
+}

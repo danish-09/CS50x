@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block body %}
+<form action="/login" method="post">
+    <div class="container-log">
+        <div class="logregrow">
+            <div class="col-lg-3 md-3">
+        <label class="form-label" for="name">Username</label>
+        <input autocomplete="off" autofocus class="form-control"name="username" placeholder="type username" type="text" required>
+        </div>
+        </div>
+    <div class="logregrow">
+        <div class="col-lg-3 md-3">
+        <label class="form-label" for="password">Password</label>
+        <input class="form-control" name="password" placeholder="type password" type="password" required>
+    </div>
+    </div>
+    <button class="btn btn-dark" type="submit">Log In</button>
+    </div>
+</form>
+
+{% endblock %}
