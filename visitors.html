@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Visitors
+{% endblock %}
+
+{% block body %}
+<table class="table table-dark table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Place of visit</th>
+        <th>Date of visit</th>
+        <th>Social media</th>
+        <th>User id</th>
+    </tr>
+    <tbody>
+    {% for row in data %}
+    <tr>
+        <td>{{row.name}}</td>
+        <td>{{row.place}}</td>
+        <td>{{row.date}}</td>
+        <td>{{row.contacttype}}</td>
+        <td>{{row.contact}}</td>
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+<br>
+<h4>Helpful links:</h4>
+<a href="https://www.instagram.com/">Instagram</a>
+<br>
+<a href="https://twitter.com/">Twitter</a>
+
+{% endblock %}
