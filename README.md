@@ -5,14 +5,14 @@ GETAWAY IN KASHMIR web application using python, Flask, SQL.
 
 **GETAWAY IN KASHMIR is my final project of [CS50x](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science), Harvard University's introduction to the intellectual enterprises of computer science and the art of programming**.
 
-I believe connections matter and this is the exactly what this webapp tries to do, it tries to connect people no matter where they come from cross cutting cultural, regional differences.
-This web application aims to connect travelers in Kashmir.
-First time users have to register using their username and password using the register link on the navbar, after the username and the password are properly validated against stored information in the database then the user can login using using his username and password.
+I believe connections matter and this is the exactly what this webapp tries to do, connects people.
+This web application aims to connect travellers in Kashmir.
+First time users have to register using their username and password using the register link on the navbar, after which they can login with their credentials.
 After the user has logged in he can see the homepage of the web application the homepage has information and some beautiful pictures of Kashmir giving the user a glimpse of this place called Heaven on Earth .
 The user can also click on the places link on top of the navbar which will show the user the most popular places in Kashmir from a tourist's standpoint.
 The about link on the navbar provides a small glimpse into what the developer aims to achieve
 with this web application.
-The user can then click on the visit link on the navbar which will render a form , which the user will fill out ,this form contains the name, place of visit, date of visit and the social contact fields. Once the form is submitted the form data is inserted into the database and a table containing the information related to other travelers who are going to visit the same places on the same dates is rendered.This table lists their user id's along with the social media sites so that these people can then be contacted by other fellow travelers leading to a connection.
+The user can then click on the visit link on the navbar which will render a form , which the user will fill out ,this form contains the name, place of visit, date of visit and the social contact fields. Once the form is submitted a table containing the information related to other travelers who are going to visit the same places on the same dates is rendered.This table lists their social media id's so that these people can then be contacted by other fellow travelers leading to a connection.
 
 
 **PROJECT FILES**
